@@ -440,7 +440,6 @@ footer{
         padding: 0 40px;
     }
     .detail-container--box{
-        flex: 1;
     }
 }
 @media screen and (max-width: 1060px){
@@ -484,9 +483,10 @@ footer{
     .detail-container{
         flex-direction: column;
         align-items: center;
+        width: 688px;
     }
     .detail-container--box{
-        max-width: 508px;
+        width: 688px;
     }
     .links-footer{
         flex-direction: column;
@@ -562,6 +562,7 @@ footer{
     }
     .detail-container{
         padding: 0 16px;
+        width: 100%;
     }
     .detail-container--box{
         width: 100%;
