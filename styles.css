@@ -441,6 +441,12 @@ footer{
     align-items: center;
     justify-content: center;
 }
+.answer i{
+    background-color: var(--primary-color-200);
+}
+.answer span{
+    background-color: var(--primary-color-200);
+}
 @media screen and (max-width: 1208px){
     .web-simple--header{
         width: 100%;
